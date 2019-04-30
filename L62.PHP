@@ -7,14 +7,14 @@ for($index = 0; $index < 10; $index++)
 }
 print("<br>"."停止:".microtime()."<br>");
 ?>
-<?
+<?php
 $CurrentHour = date("h");
-prit("从现在开始50小时以后为：");
+print("从现在开始50小时以后为：");
 print(date("h:i a l F dS, Y",
 mktime($CurrentHour+50)));
 print("<br>");
 ?>
-<?
+<?php
 $CurrentTime = time();
 print($CurrentTime);
 ?>
